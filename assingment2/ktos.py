@@ -17,7 +17,7 @@ def ktos(k, dt):
         slew rate (gradient derivative)
     
     The conversion uses the relationship: s = diff(diff(k) / (dt * 4.257)) / dt
-    where 4.257 is the gyromagnetic ratio for water in kHz/T
+    where 4.257 is the gyromagnetic ratio for water in kHz/G
     """
     
     # Convert to numpy array

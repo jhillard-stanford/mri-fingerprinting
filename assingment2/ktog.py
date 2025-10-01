@@ -17,7 +17,7 @@ def ktog(k, dt):
         gradient waveform
     
     The conversion uses the relationship: g = diff(k) / (4.257 * dt)
-    where 4.257 is the gyromagnetic ratio for water in kHz/T
+    where 4.257 is the gyromagnetic ratio for water in kHz/G
     """
     
     # Convert to numpy array
