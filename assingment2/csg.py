@@ -85,7 +85,7 @@ def csg(k, mxg, mxs):
     nk = interp_func_final(new_t_final)
     
     # Calculate dt
-    dt = nt_new[-1] / len_k
+    dt = new_t_final[-1] / len_k
     
     # Report the waveform length
     print(f'Gradient duration is {nt_new[-1]:6.3f} ms')
