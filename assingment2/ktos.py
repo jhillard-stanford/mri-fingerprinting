@@ -64,3 +64,4 @@ if __name__ == "__main__":
     s_manual = np.diff(g) / dt
     print(f"Slew rate from ktog + diff: {s_manual}")
     print(f"Results match: {np.allclose(s, s_manual)}")
+

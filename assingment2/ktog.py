@@ -52,3 +52,4 @@ if __name__ == "__main__":
     g2 = ktog(k, 0.05)
     print(f"Gradient with dt=0.05: {g2}")
     print(f"Max gradient: {np.max(np.abs(g2)):.3f} G/cm")
+
